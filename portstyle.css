@@ -1,0 +1,50 @@
+    body{
+        background-color: cadetblue;
+        display: flex;
+        justify-content: center;
+        margin: 9%;
+
+    }
+
+    img{
+        width: 70px;
+        margin-left: 40%;
+    }
+
+    .container{
+    width: 400px;
+    height: 350px;
+    border: none;
+    border-radius: 30px;
+    background-color: aquamarine;
+    box-shadow: 2px 3px 6px grey;
+    padding: 1.5rem;        
+    }
+
+    h1{
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+        color: crimson;
+        font-size: 1.2rem;
+    }
+
+    span p{
+        text-align: center;
+        color: crimson;
+        text-decoration: underline;
+    }
+
+    @media(max-width: 5000px){
+
+        .container{
+            height: 250px;
+        }
+        span p{
+            text-align: center;
+            font-size: .7rem;
+        }
+    }
